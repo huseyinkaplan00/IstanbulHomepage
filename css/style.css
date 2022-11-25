@@ -5,7 +5,10 @@
 }
 @media screen and (min-width: 320px) {
   .container .boxOne img {
-    min-height: 35em !important;
+    min-height: 560px !important;
+  }
+  .container .boxTwo {
+    height: 442px !important;
   }
 }
 h1,
@@ -49,6 +52,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Lobster Two", cursive;
+  font-size: 1.5em;
 }
 
 .container {
@@ -57,11 +61,15 @@ body {
   align-items: center;
   justify-content: center;
 }
-.container .boxOne {
+.container .boxOne,
+.container .boxTwo,
+.container .boxThree {
   display: flex;
   width: 100%;
-  position: relative;
   align-items: center;
+}
+.container .boxOne {
+  position: relative;
   justify-content: center;
   height: auto;
 }
@@ -98,10 +106,7 @@ body {
 }
 .container .boxTwo {
   height: 378px;
-  width: 100%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   background: #886855;
 }
@@ -116,7 +121,7 @@ body {
   height: 226px;
 }
 .container .boxTwo .content h3 {
-  color: #5b5159;
+  color: rgb(24, 17, 17);
   text-shadow: 1px -2px 2px rgb(255, 255, 255);
 }
 .container .boxTwo .content p {
@@ -168,10 +173,7 @@ body {
      object-fit: cover;
 }
 .container .boxThree {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  width: 100%;
   height: 394px;
   background: rgba(26, 48, 39, 0.19);
   background-image: url("");
@@ -213,5 +215,5 @@ body {
   margin-bottom: 26px;
 }
 .container .boxThree .innerBox .innerTwo p a {
-  color: wheat;
+  color: #696456;
 }/*# sourceMappingURL=style.css.map */

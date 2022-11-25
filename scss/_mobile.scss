@@ -1,12 +1,13 @@
 @media screen and (min-width: 320px) {
     .container {
-
-
-
         .boxOne {
             img {
-                min-height: 35em !important;
+                min-height: 560px !important;
             }
+        }
+
+        .boxTwo {
+            height: 442px !important;
         }
     }
 }

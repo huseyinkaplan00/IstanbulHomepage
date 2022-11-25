@@ -50,6 +50,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
 
 }
 
@@ -59,12 +60,18 @@ body {
     align-items: center;
     justify-content: center;
 
-
-    .boxOne {
+    .boxOne,
+    .boxTwo,
+    .boxThree {
         display: flex;
         width: 100%;
-        position: relative;
         align-items: center;
+    }
+
+
+
+    .boxOne {
+        position: relative;
         justify-content: center;
         height: auto;
 
@@ -112,10 +119,7 @@ body {
 
     .boxTwo {
         height: 378px;
-        width: 100%;
-        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: space-around;
         background: $liver-chestnut;
 
@@ -133,7 +137,7 @@ body {
 
 
             h3 {
-                color: $dark-liver;
+                color: $blackOne;
                 text-shadow: 1px -2px 2px rgb(255, 255, 255);
             }
 
@@ -200,10 +204,7 @@ body {
     }
 
     .boxThree {
-        display: flex;
-        align-items: center;
         justify-content: center;
-        width: 100%;
         height: 394px;
         background: $phthalo-green2;
         background-image: url('');
@@ -253,7 +254,7 @@ body {
                     }
 
                     a {
-                        color: wheat;
+                        color: #696456;
                     }
                 }
             }
